@@ -1,6 +1,8 @@
 # Snowflake AI Quiz
+<img width="903" alt="Screenshot-Snowflake-Quiz" src="https://github.com/user-attachments/assets/fc833897-22e8-4032-bfa6-2240d34ce102" />
 
 The questions in this quiz are from a webinar I attended on Snowflake's AI platform on **June 26, 2025**.
+
 Learn more in the [**_Snowflake Documentation_**](https://docs.snowflake.com/).
 
 ## 🛠️ Technologies Used
