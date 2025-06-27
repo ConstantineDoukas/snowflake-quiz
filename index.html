@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowflake AI Quiz</title>
+    
+    <meta name="description" content="A fun and informative quiz to test your knowledge of Snowflake's AI capabilities.">
+    <meta property="og:title" content="Snowflake AI Quiz">
+    <meta property="og:description" content="Test your knowledge on Snowflake Cortex, RAG, and more!">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="start-container" id="start-container">
+        <h1>Welcome to the Snowflake AI Quiz!</h1>
+        <div class="start-info">
+            <p>Ready to test your knowledge?</p>
+            <ul>
+                <li><strong>10 questions</strong> on Snowflake's AI capabilities.</li>
+                <li>You can restart at any time.</li>
+                <li>Your score will be out of 10.</li>
+            </ul>
+        </div>
+        <button id="start-btn" class="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container hide" id="quiz-container">
+        <h1>Snowflake AI Quiz</h1>
+        <button id="hidden-restart-btn" class="hidden-restart-btn">Restart Quiz</button>
+        
+        <div class="question-container">
+            <h2 id="question-text"></h2>
+            <div id="answer-buttons" class="btn-grid">
+                </div>
+        </div>
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
+    </div>
+
+    <div class="score-container hide" id="score-container">
+        <h2>Quiz Complete!</h2>
+        <p>Your score: <span id="final-score">0</span> / 10</p>
+        <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
