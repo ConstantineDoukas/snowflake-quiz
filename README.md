@@ -13,7 +13,7 @@ Learn more in the [**_Snowflake Documentation_**](https://docs.snowflake.com/).
 
 ## 🚀 Live Demo
 
-You can take the quiz live here: [**_Your Netlify Site Link Here_**](https://your-site-name.netlify.app)
+You can take the quiz live here: [**_Your Netlify Site Link Here_**](https://snowflake-ai-quiz.netlify.app/)
 
 ## ✨ Features
 
